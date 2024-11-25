@@ -1,7 +1,6 @@
 import React, { useEffect, useContext, useState } from "react";
 import { AppContext } from "../contextApi/AppContext";
 import { getCompanyList, getEmployeeList } from "../service/apiService";
-import Modal from "../Dialogs/customModal";
 import { useNavigate } from "react-router-dom";
 import ViewCompanyDetails from "../Dialogs/ViewCompanyDeatils";
 import ViewUserDeatils from "../Dialogs/ViewUserDeatils";
